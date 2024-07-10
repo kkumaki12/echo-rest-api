@@ -6,7 +6,7 @@ services:
       - 5434:5432
     environment:
       POSTGRES_USER: test
-      POSTGRES_PASSWORD: test
+      POSTGRES_PW: test
       POSTGRES_DB: test
     restart: always
     networks:
